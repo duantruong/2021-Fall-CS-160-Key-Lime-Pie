@@ -8,15 +8,13 @@ class App extends React.Component {
   render(){
     return (
       <div className = "App"> 
-        hello
-        
-    
-       </div>
-    
-      
+        <h1>MICROEGG</h1>
+        <Search/>
+       </div> 
     );
-    <Search/>
+   
   }
+  
   
 }
 
