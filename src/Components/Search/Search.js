@@ -3,7 +3,7 @@ import './Search.css';
 class Search extends React.Component{
     render(){
         return (
-            <form action = "/" method="get">
+            <form  action = "/" method="get">
                 <label htmlFor="header-search">
             <span className="visually-hidden"></span>
         </label>

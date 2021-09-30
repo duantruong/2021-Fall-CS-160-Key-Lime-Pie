@@ -1,0 +1,22 @@
+.ComputerParts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 16.66rem;
+  margin: 0 0.5rem 2.3rem 0.5rem;
+  border: 1px solid black;
+}
+.ComputerParts .image-container {
+  height: 16.66rem;
+  margin-bottom: 1rem;
+  background-color: blue;
+}
+.ComputerParts h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.ComputerParts a:hover {
+  cursor: pointer;
+  background-color: #a7874b;
+}
