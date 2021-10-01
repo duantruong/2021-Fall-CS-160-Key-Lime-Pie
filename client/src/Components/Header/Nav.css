@@ -1,0 +1,24 @@
+.nav {
+  background-color: grey;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+.wrapper {
+  display: grid;
+}
+.nav .link ul {
+  list-style-type: none;
+  text-align: left;
+}
+a {
+  color: white;
+}
+.link a:hover {
+  cursor: pointer;
+  color: white;
+}
