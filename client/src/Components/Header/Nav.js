@@ -1,33 +1,41 @@
 import React  from "react";
 import Search  from "../Search/Search";
+import {Link} from 'react-router-dom';
+import cartLogo from '../icon/cart.svg';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import './Nav.css';
 
-class Nav extends React.Component{
+export default class Nav extends React.Component{
     constructor(props){
         super(props);
     }
     render(){
         return (
-            <div className = "nav">
-                <div className = "wrapper">
-                    <div className="logo">
-                    <h1>MICROEGG</h1>
-                    </div>
-                    <div className="Search bar">
-                    <Search/>
-                    </div>
-                    <div className="link">
-                    <ul class="login">
-                        <li><a href="/">Log in</a></li>
-                        <li> <a href="/">Create an account</a></li>
-                       
-                    </ul>     
+            <nav className = "navbar bg-secondary navbar-dark px-sm-5">  
+                <Link to='/'>
+                        <h1 className="navbar-brand">MICROEGG</h1>
+                </Link>
+                <div className="info nav-item">
+                <ul >
+                            <Link to='/login'>
+                                <li className="nav-link">Log in</li>
+                            </Link>
+                            <Link to='/account-create'>
+                            <li className="nav-link">Create an account</li>
+                            </Link>
+                 </ul>
                 </div>
-                </div>
+                    <Link  to='/cart' className=" nav-item-cart">
+                        <button >
+                            <i className=" fas fa-cart-plus"/>
+                            my cart
+                        </button>
+                    </Link>
+                   
                 
-                <div>{this.props.children}</div>
-            </div>
+                
+            </nav>
         );
     }
 }
-export default Nav;

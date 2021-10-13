@@ -1,9 +1,11 @@
 import React from "react";
 import './Search.css';
-class Search extends React.Component{
+export default class Search extends React.Component{
     render(){
         return (
-            <form  action = "/" method="get">
+            <div className="container">
+                <div className="wrapper">
+                <form class="search-form" action = "/" method="get">
                 <label htmlFor="header-search">
             <span className="visually-hidden"></span>
         </label>
@@ -15,7 +17,11 @@ class Search extends React.Component{
         />
         <button type="submit">Search</button>
             </form>
+                </div>
+                
+            </div>
+           
             )
     };
 }
-export default Search;
+

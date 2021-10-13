@@ -2,9 +2,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   width: 16.66rem;
   margin: 0 0.5rem 2.3rem 0.5rem;
-  border: 1px solid black;
+  border: 1px solid pink;
+  position: relative;
+  top: 16px;
+  padding: 20px;
 }
 .ComputerParts .image-container {
   height: 16.66rem;

@@ -1,24 +1,16 @@
-.nav {
-  background-color: grey;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  color: white;
-}
-.wrapper {
-  display: grid;
-}
-.nav .link ul {
+ul {
+  background-color: rgb(48, 48, 48);
   list-style-type: none;
-  text-align: left;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
-a {
-  color: white;
+.info {
+  margin-left: auto;
 }
-.link a:hover {
-  cursor: pointer;
-  color: white;
+.navbar-brand {
+  text-size-adjust: 20px !important;
+}
+.nav-item-cart {
+  margin-left: 10px !important;
 }
