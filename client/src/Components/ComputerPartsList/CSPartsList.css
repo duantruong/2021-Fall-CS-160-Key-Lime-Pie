@@ -5,3 +5,10 @@
   margin: 4.4rem 10%;
   border: 1px solid black;
 }
+.imgwrapper {
+  width: 200px;
+  height: 200px;
+}
+.card {
+  background-color: rgb(48, 48, 48);
+}

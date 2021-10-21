@@ -7,6 +7,13 @@ ul {
 }
 .info {
   margin-left: auto;
+  font-size: 1.1rem;
+}
+.navbar {
+  background-color: rgb(48, 48, 48) !important;
+}
+button {
+  font-size: 1.1rem !important;
 }
 .navbar-brand {
   text-size-adjust: 20px !important;

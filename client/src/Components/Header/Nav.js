@@ -4,6 +4,8 @@ import {Link} from 'react-router-dom';
 import cartLogo from '../icon/cart.svg';
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
+
 import './Nav.css';
 
 export default class Nav extends React.Component{
@@ -12,7 +14,7 @@ export default class Nav extends React.Component{
     }
     render(){
         return (
-            <nav className = "navbar bg-secondary navbar-dark px-sm-5">  
+            <nav className = "navbar bg-secondary navbar-dark px-sm-3">  
                 <Link to='/'>
                         <h1 className="navbar-brand">MICROEGG</h1>
                 </Link>
@@ -27,12 +29,12 @@ export default class Nav extends React.Component{
                  </ul>
                 </div>
                     <Link  to='/cart' className=" nav-item-cart">
-                        <button >
+                        <button>
                             <i className=" fas fa-cart-plus"/>
                             my cart
                         </button>
                     </Link>
-                   
+           
                 
                 
             </nav>

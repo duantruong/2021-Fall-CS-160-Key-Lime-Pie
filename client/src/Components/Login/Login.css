@@ -1,0 +1,23 @@
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+}
+
+.form-signin .form-control {
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  padding: 1px;
+  margin: 3px;
+}
+.button,
+input {
+  overflow: visible;
+}
+.text-center {
+  text-align: center !important;
+}
