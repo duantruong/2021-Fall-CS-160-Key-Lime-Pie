@@ -23,7 +23,7 @@ export default class CSPartsList extends React.Component{
       
         return (
             <React.Fragment>
-                <div class="card-deck p-5 d-flex flex-wrap" >
+                <div class="card-deck p-5 d-flex flex-wrap justify-content-center" >
                    {categoriesList_r1}
                 </div>
             </React.Fragment>
