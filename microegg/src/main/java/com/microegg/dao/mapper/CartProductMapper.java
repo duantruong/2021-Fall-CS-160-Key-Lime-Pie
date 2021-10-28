@@ -9,6 +9,10 @@ import java.sql.SQLException;
 public class CartProductMapper implements RowMapper<CartProduct> {
     @Override
     public CartProduct mapRow(ResultSet rs, int rowNum) throws SQLException {
-        return null;
+        CartProduct cartProduct = new CartProduct();
+        cartProduct.setProductId(rs.getInt("productId"));
+        cartProduct.setCartId(rs.getInt("cartId"));
+        cartProduct.setQuantity(rs.getInt("quantity"));
+        return cartProduct;
     }
 }

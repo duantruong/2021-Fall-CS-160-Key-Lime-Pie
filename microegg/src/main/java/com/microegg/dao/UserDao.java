@@ -64,7 +64,7 @@ public class UserDao {
         String query = "INSERT INTO CARDS (cardHolderName,cardNumber,expirationDate,userId) VALUES(?,?,?,?)";
         jdbcTemplate.update(query,card.getCardHolderName(),card.getCardNumber(),card.getExiprationDate(),card.getUserId());
         final Integer id = jdbcTemplate.queryForObject("SELECT LAST_INSERT_ID()", Integer.class);
-        card.setUserId(id);
+        card.setCardId(id);
         return card;
     }
 
