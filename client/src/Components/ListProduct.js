@@ -8,9 +8,11 @@ export default class ListProduct extends Component{
             message: null
         }
         this.refreshProducts = this.refreshProducts.bind(this);
+        this.addToCartClicked = this.addToCartClicked.bind(this);
     }
     componentDidMount(){
         this.refreshProducts();
+
     }
     refreshProducts(){
         DataServices.retrieveAllProduct().then(
@@ -18,7 +20,15 @@ export default class ListProduct extends Component{
                 console.log(response);
                 this.setState({products: response
                         .data.data})
+
             }
+        )
+    }
+    addToCartClicked(){
+        DataServices.addToCart().then(
+           response =>{
+               console.log(response);
+           }
         )
     }
     render(){
@@ -51,9 +61,11 @@ export default class ListProduct extends Component{
                                         <td>{product.make}</td>
                                         <td>{product.price}</td>
                                         <td>{product.category}</td>
-
+                                        <td><button className="btn btn-warning" onClick={() => this.addToCartClicked()}>Add to Cart</button></td>
                                     </tr>
+
                             )
+
                         }
 
                         </tbody>

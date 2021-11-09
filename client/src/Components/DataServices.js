@@ -8,4 +8,7 @@ export default class DataServices{
     static searchByType(category){
         return axios.get(`http://localhost:8081/api/product/searchByType/${category}`);
     }
+    static addToCart(){
+        return axios.post('http://localhost:8081/api/order/addToCart');
+    }
 }
