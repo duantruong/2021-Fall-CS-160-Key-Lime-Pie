@@ -9,12 +9,14 @@ import com.microegg.model.OrderProduct;
 import com.microegg.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.servlet.tags.ArgumentAware;
 
 import java.sql.Date;
 import java.util.List;
 
 @Service
+@CrossOrigin(origins = {"http://localhost:3000"})
 public class OrderService {
 
     @Autowired

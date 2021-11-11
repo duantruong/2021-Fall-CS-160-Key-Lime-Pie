@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-@CrossOrigin(origins = {"http://localhost:3000"});
+@CrossOrigin(origins = {"http://localhost:3000"})
 @RestController
 public class ProductService {
 
