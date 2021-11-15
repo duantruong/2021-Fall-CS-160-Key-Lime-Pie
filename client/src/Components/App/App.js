@@ -43,6 +43,7 @@ class App extends React.Component {
         <Route path="/list-all-storages"component={Storages}></Route>
         <Route path="/list-all-peripherals"component={Peripherals}></Route>
         <Route path="/list-all-monitors"component={Monitors}></Route>
+        <Route path="/ListProduct/:id" component={Detail} exact></Route>
         <Route component={Default}></Route>
 
 

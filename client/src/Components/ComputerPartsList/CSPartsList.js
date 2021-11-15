@@ -31,11 +31,11 @@ export default class CSPartsList extends React.Component{
       
         return (
             <React.Fragment>
-                <div class="card-deck p-5 d-flex flex-wrap justify-content-center" >
+                <div className="card-deck p-5 d-flex flex-wrap justify-content-center" >
                    {categoriesList_r1}
 
                 </div>
-                <div className="text-center">
+                <div className="text-center mb-5">
                     <Link to='/list-all-products'>
                         <h3>List all product</h3>
                     </Link>

@@ -1,5 +1,6 @@
 import React,{Component} from "react";
 import DataServices from "./DataServices";
+import {Link} from "react-router-dom";
 
 export default class ComputerCases extends Component{
     constructor(props) {
@@ -22,7 +23,10 @@ export default class ComputerCases extends Component{
         )
     }
 
+
+
     render() {
+
         return(
             <div>
                 <div className="text-center">
@@ -47,9 +51,14 @@ export default class ComputerCases extends Component{
                                             </div>
                                             <div className="align-content-center p-2">
                                                 <p>${product.price}</p>
+                                                <p>${product.category}</p>
                                             </div>
                                             <div className="align-content-center p-2">
-                                                <a href="#" className="btn btn-primary align-items-center ">Detail</a>
+                                                <Link to={
+                                                    {pathname: `/ListProduct/${product.productId}`,
+                                                        state:`${product.category}`}}
+                                                 className="btn btn-primary align-items-center ">Detail
+                                                </Link>
                                             </div>
 
                                         </div>

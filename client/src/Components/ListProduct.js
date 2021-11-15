@@ -52,7 +52,12 @@ export default class ListProduct extends Component{
                                                 <p>${product.price}</p>
                                             </div>
                                             <div className="align-content-center p-2">
-                                                <a href="#" className="btn btn-primary align-items-center ">Detail</a>
+                                                <Link to={
+                                                    {pathname: `/ListProduct/${product.productId}`,
+                                                        state:`${product.category}`}}
+                                                     className="btn btn-primary align-items-center ">Detail
+                                                </Link>
+
                                             </div>
 
                                     </div>
