@@ -16,9 +16,7 @@ export default class Login extends Component {
                     </label>
                     <input type="email" id="inputPassword" className="form-control" placeholder="Password" required></input>
                     <button className="btn btn-lg btn-primary btn-block m-3 " type="submit"> Sign in </button>
-                    <button className="btn btn-lg btn-primary btn-block m-3 " type="submit"> Sign up </button>
-
-                    
+                    <button className="btn btn-lg btn-primary btn-block m-3 " type="submit"> Sign up </button>                    
                 </form>
             </div>
         )
