@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import java.sql.Date;
 import java.util.List;
 
 @Repository
@@ -66,7 +65,7 @@ public class ProductDao {
         String query = "Select * from GRAPHICCARD where productId = "+ productId;
         return jdbcTemplate.queryForObject(query, new GraphicCardMapper());
     }
-    public Processorrs getProcessorsProduct(Integer productId){
+    public Processors getProcessorsProduct(Integer productId){
         String query = "Select * from PROCESSORS where productId = "+ productId;
         return jdbcTemplate.queryForObject(query, new ProcessorMapper());
     }

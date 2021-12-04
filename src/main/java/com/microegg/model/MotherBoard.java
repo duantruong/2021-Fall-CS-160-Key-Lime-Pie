@@ -3,7 +3,7 @@ package com.microegg.model;
 public class MotherBoard extends Product{
 
     private String chipSet;
-    private int size;
+    private String size;
 
     public String getChipSet() {
         return chipSet;
@@ -13,11 +13,11 @@ public class MotherBoard extends Product{
         this.chipSet = chipSet;
     }
 
-    public int getSize() {
+    public String getSize() {
         return size;
     }
 
-    public void setSize(int size) {
+    public void setSize(String size) {
         this.size = size;
     }
 }
