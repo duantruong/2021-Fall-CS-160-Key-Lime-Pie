@@ -1,7 +1,8 @@
 
 import './App.css';
 import React from 'react';
-import Search from '../Search/Search';
+import Search from "../Search/Search.js"
+import BookData from "../Search/data.json"
 import { Switch,Route } from 'react-router';
 import { render } from 'react-dom';
 
@@ -22,6 +23,7 @@ import Storages from "../Storages";
 import Peripherals from "../Peripherals";
 import Monitors from "../Monitors";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import  {useState} from 'react';
 
 
@@ -53,6 +55,9 @@ export default  function App(){
     };
     return (
      <React.Fragment>
+      <div className = "SearchBar">
+                    <Search placeholder= "Search..." data={BookData}/>
+      </div>
        
       <Nav countCartItem = {cartItems.length} onAdd={onAdd} cartItems = {cartItems}></Nav>
 
@@ -86,5 +91,6 @@ export default  function App(){
   
   
 }
+
 
 
