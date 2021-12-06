@@ -39,7 +39,7 @@ export default class ComputerCases extends Component{
                             this.state.products.map(
                                 product =>
 
-                                    <div className="card m-4 align-content-center w-10px" key={product.id}>
+                                    <div className="card m-4 align-content-center w-10px" key={product.productId}>
                                         <div className="imgwrapper align-content-center">
                                             <img className="card-img-top  img-fluid p-4"
                                                  src="./images/Computer_Case.png"/>

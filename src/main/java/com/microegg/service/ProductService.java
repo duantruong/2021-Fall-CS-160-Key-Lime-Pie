@@ -16,51 +16,55 @@ public class ProductService {
     @Autowired
     ProductDao productDao;
 
-    public List<Product> getAllProduct(){
+    public List<Product> getAllProduct() {
         List<String> list = productDao.getListOfCategory();
         List<Product> products = new ArrayList<>();
-        for(String cat : list){
+        for (String cat : list) {
             products.addAll(productDao.searchProductByCategory(cat));
         }
         return products;
     }
 
-    public List<Product> searchProductByNameLike(String productName){
+    public List<Product> searchProductByNameLike(String productName) {
         List<Product> productList = getAllProduct();
-      return   productList.stream().filter(p ->
-                p.getProductName().toUpperCase().contains(productName.toUpperCase()))
+        return productList.stream().filter(p ->
+                        p.getProductName().toUpperCase().contains(productName.toUpperCase()))
                 .collect(Collectors.toList());
     }
 
-    public List<Product> searchProductByType(String category){
+    public List<Product> searchProductByType(String category) {
         return productDao.searchProductByCategory(category);
     }
 
-    public Colling getCollingProductDetail(Integer productId ){
+    public Colling getCollingProductDetail(Integer productId) {
         return productDao.getCoolingProduct(productId);
     }
 
-    public GraphicCard getGraphicCard(Integer productId){
+    public GraphicCard getGraphicCard(Integer productId) {
         return productDao.getGraphicCardProduct(productId);
     }
 
-    public MotherBoard getMotherBoard(Integer id){
+    public MotherBoard getMotherBoard(Integer id) {
         return productDao.getMotherBoardProduct(id);
     }
 
-    public PowerSupply getPowerSupply(Integer id){
+    public PowerSupply getPowerSupply(Integer id) {
         return productDao.getPowerSupplyProduct(id);
     }
 
-    public Ram getRam(Integer id){
+    public Ram getRam(Integer id) {
         return productDao.getRamProduct(id);
     }
 
-    public Storage getStorage(Integer id){
+    public Storage getStorage(Integer id) {
         return productDao.getStorageProduct(id);
     }
 
-    public ComputerCases getComputerCasesProduct(Integer productId){
-       return productDao.getComputerCasesProduct(productId);
+    public ComputerCases getComputerCasesProduct(Integer productId) {
+        return productDao.getComputerCasesProduct(productId);
+    }
+
+    public Processors getProcessorsProduct(Integer productId) {
+        return productDao.getProcessorsProduct(productId);
     }
 }

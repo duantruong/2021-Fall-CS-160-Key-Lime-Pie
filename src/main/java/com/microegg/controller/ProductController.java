@@ -166,11 +166,31 @@ public class ProductController {
                 response.getError() ? HttpStatus.INTERNAL_SERVER_ERROR : HttpStatus.OK);
     }
 
+    public ProductController() {
+        super();
+    }
+
     @GetMapping("/getComputerCases/{productId}")
     public ResponseEntity<ApiRestResponse> getComputerCases(@PathVariable Integer productId){
         ApiRestResponse response = new ApiRestResponse();
         try{
             ComputerCases product = productService.getComputerCasesProduct(productId);
+            response.setData(product);
+        }
+        catch (Exception ex){
+            response.setError(true);
+            response.setSuccess(false);
+            response.setErrorMessage(ex.getMessage());
+        }
+        return new ResponseEntity<>(response,
+                response.getError() ? HttpStatus.INTERNAL_SERVER_ERROR : HttpStatus.OK);
+    }
+
+    @GetMapping("/getProcessors/{productId}")
+    public ResponseEntity<ApiRestResponse> getProcessors(@PathVariable Integer productId){
+        ApiRestResponse response = new ApiRestResponse();
+        try{
+            Processors product = productService.getProcessorsProduct(productId);
             response.setData(product);
         }
         catch (Exception ex){

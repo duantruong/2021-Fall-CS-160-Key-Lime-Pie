@@ -1,18 +1,15 @@
-import React  from "react";
+import React,{Component}  from "react";
 import Search  from "../Search/Search";
 import {Link} from 'react-router-dom';
 import cartLogo from '../icon/cart.svg';
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import {DataContext} from "../../data";
 
 
 import './Nav.css';
 
-export default class Nav extends React.Component{
-    constructor(props){
-        super(props);
-    }
-    render(){
+export default function Nav(props) {
+
         return (
             <nav className = "navbar bg-secondary navbar-dark px-sm-3">  
                 <Link to='/'>
@@ -28,10 +25,11 @@ export default class Nav extends React.Component{
                             </Link>
                  </ul>
                 </div>
-                    <Link  to='/cart' className=" nav-item-cart">
+                    <Link  to="/cart" className=" nav-item-cart">
                         <button>
                             <i className=" fas fa-cart-plus"/>
-                            my cart
+                            my cart {props.countCartItem}
+
                         </button>
                     </Link>
            
@@ -39,5 +37,5 @@ export default class Nav extends React.Component{
                 
             </nav>
         );
-    }
+
 }

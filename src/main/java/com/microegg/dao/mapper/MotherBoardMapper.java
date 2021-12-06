@@ -19,7 +19,7 @@ public class MotherBoardMapper implements RowMapper<MotherBoard> {
         product.setAvailableQuantity(rs.getInt("AVAILABLEQUANTITY"));
         product.setMake(rs.getString("make"));
         product.setChipSet(rs.getString("chipset"));
-        product.setSize(rs.getInt("size"));
+        product.setSize(rs.getString("size"));
         product.setImageUrl(rs.getString("imageUrl"));
         return product;
     }
