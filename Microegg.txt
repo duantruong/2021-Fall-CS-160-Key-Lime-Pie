@@ -7,7 +7,9 @@ userId INT NOT NULL AUTO_INCREMENT primary key,
 fname varchar(100) not null,
 lname varchar(100) not null,
 gender varchar(10) not null,
-mobile varchar(20) not null
+mobile varchar(20) not null,
+email varchar(50) not null,
+password varchar(200) not null
 );
 
 create table Login_Credentials (
