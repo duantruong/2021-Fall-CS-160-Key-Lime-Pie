@@ -22,16 +22,45 @@ import Storages from "../Storages";
 import Peripherals from "../Peripherals";
 import Monitors from "../Monitors";
 import "bootstrap/dist/css/bootstrap.min.css";
-class App extends React.Component {
-  render(){
+import  {useState} from 'react';
+
+
+export default  function App(){
+    const[cartItems,setCartItems] = useState([])
+    const onAdd = (product) => {
+      const exist = cartItems.find((x) =>x.productId === product.productId)
+      if (exist){
+        setCartItems(
+            cartItems.map((x) =>
+            x.productId === product.productId ? {...exist,qty:exist.qty + 1}: x
+            )
+        )
+      } else {
+        setCartItems([...cartItems,{...product,qty:1}])
+      }
+    }
+    const onRemove = (product) => {
+        const exist = cartItems.find((x) => x.productId === product.productId);
+        if (exist.qty === 1) {
+            setCartItems(cartItems.filter((x) => x.productId !== product.productId));
+        } else {
+            setCartItems(
+                cartItems.map((x) =>
+                    x.productId === product.productId ? { ...exist, qty: exist.qty - 1 } : x
+                )
+            );
+        }
+    };
     return (
      <React.Fragment>
        
-      <Nav/>
+      <Nav countCartItem = {cartItems.length} onAdd={onAdd} cartItems = {cartItems}></Nav>
+
       <Switch>
-        <Route exact path="/"component={CSPartsList}></Route>
-        <Route path="/details"component={Detail}></Route>
-        <Route path="/cart"component={Cart}></Route>
+          <Route exact path="/"component={CSPartsList}></Route>
+        <Route exact path="/homepage"component={CSPartsList}></Route>
+        <Route path="/details" component={<Detail data={1}/>} />
+        <Route path="/cart"render={(props) => <Cart data={cartItems} onAdd={onAdd} onRemove={{onRemove}}{...props}/>}></Route>
         <Route path="/login"component={Login}></Route>
         <Route path="/account-create"component={CreateAcc}></Route>
         <Route path="/list-all-products"component={ListProduct}></Route>
@@ -43,7 +72,7 @@ class App extends React.Component {
         <Route path="/list-all-storages"component={Storages}></Route>
         <Route path="/list-all-peripherals"component={Peripherals}></Route>
         <Route path="/list-all-monitors"component={Monitors}></Route>
-        <Route path="/ListProduct/:id" component={Detail} exact></Route>
+        <Route path="/ListProduct/:id" render={(props) => <Detail data={cartItems} onAdd={onAdd} onRemove={{onRemove}}{...props}/>} exact></Route>
         <Route component={Default}></Route>
 
 
@@ -53,9 +82,9 @@ class App extends React.Component {
      </React.Fragment>  
       );
    
-  }
+
   
   
 }
-export default App;
+
 

@@ -28,47 +28,53 @@ export default class ListProduct extends Component{
     }
 
     render(){
+
         return (
             <div>
                 <h3 className= "text-center">
                     All Products
                 </h3>
-                <div  class="card-deck  d-flex flex-wrap justify-content-center">
+                <div className="container">
+                    <table className="table text-white">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>name</th>
 
+                            <th>make</th>
+                            <th>price</th>
+                            <th>category</th>
+                            <th>Detail</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
                         {
                             this.state.products.map(
                                 product =>
+                                    <tr key={product.productId}>
+                                        <td>{product.productId}</td>
+                                        <td>{product.productName}</td>
+                                        <td>{product.make}</td>
+                                        <td>${product.price}</td>
+                                        <td>{product.category}</td>
+                                        <td><Link to={
+                                            {pathname: `/ListProduct/${product.productId}`,
+                                                state:`${product.category}`}}
+                                                  className="btn btn-primary align-items-center ">Detail
+                                        </Link></td>
 
-                                    <div className="card m-4 align-content-center w-10px" key={product.id}>
-                                        <div className="imgwrapper align-content-center">
-                                            <img  className="card-img-top  img-fluid p-4" src="./images/Computer_Case.png"/>
-                                        </div>
-                                        <div className="card-body align-content-center">
-
-                                        <div className="card-title text-center p-2">
-                                           {product.productName}
-                                        </div>
-                                            <div className="align-content-center p-2">
-                                                <p>${product.price}</p>
-                                            </div>
-                                            <div className="align-content-center p-2">
-                                                <Link to={
-                                                    {pathname: `/ListProduct/${product.productId}`,
-                                                        state:`${product.category}`}}
-                                                     className="btn btn-primary align-items-center ">Detail
-                                                </Link>
-
-                                            </div>
-
-                                    </div>
-                                    </div>
+                                    </tr>
                             )
-
                         }
 
+                        </tbody>
+                    </table>
                 </div>
-
             </div>
         )
+
     }
+
+
 }
