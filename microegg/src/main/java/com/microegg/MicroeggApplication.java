@@ -1,5 +1,6 @@
 package com.microegg;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -11,17 +12,15 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-
 public class MicroeggApplication {
 	@Bean
-	public Docket swagger() {
+	public Docket swagger(){
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.any())
+				.apis(ResquestHandlerSelectors.any())
 				.paths(PathSelectors.any())
 				.build();
 	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(MicroeggApplication.class, args);
 	}

@@ -1,27 +1,54 @@
-import React from "react";
+import React, {useState} from "react";
 import './Search.css';
-export default class Search extends React.Component{
-    render(){
-        return (
-            <div className="container">
-                <div className="wrapper">
-                <form class="search-form" action = "/" method="get">
-                <label htmlFor="header-search">
-            <span className="visually-hidden"></span>
-        </label>
-        <input
-            type="text"
-            id="header-search"
-            placeholder="Search for computer parts"
-            name="s" 
-        />
-        <button type="submit">Search</button>
-            </form>
+import SearchIcon from '@material-ui/icons/Search';
+import CloseIcon from '@material-ui/icons/Close';
+
+function Search({placeholder, data}) {
+    const [filteredData, setFilteredData] = useState([]);
+    const [wordEntered, setWordEntered] = useState("");
+    const handleFilter = (event) => {
+        const searchWord = event.target.value;
+        setWordEntered(searchWord);
+        const newFilter = data.data.filter((value) => {
+            return value.productName.toLowerCase().includes(searchWord.toLowerCase());
+        });
+        if(searchWord === ""){
+            setFilteredData([]);
+        }
+        else{
+            setFilteredData(newFilter);
+        }
+    }
+    const clearInput= ()=> {
+        setFilteredData([]);
+        setWordEntered("");
+    }
+    return(
+        <div className= "search" >
+            <div className= "searchInputs">
+                <input type = "text" placeholder={placeholder} value={wordEntered} onChange= {handleFilter}/>
+                <div className = "searchIcon">
+                    {filteredData.length ===0 ? <SearchIcon/> : <CloseIcon id="clearBtn" onClick={clearInput}/>}
+
                 </div>
-                
             </div>
-           
-            )
-    };
+            {filteredData.length != 0 && (
+                <div className = "dataResult">
+                    {filteredData.slice(0,10).map((value, key) => {
+                        return (
+                            <a className = "dataItem" href={value.imageUrl} target = "_blank">
+                                <p>
+                                    {value.productName}
+                                </p>
+                            </a>
+                        );
+                    })}
+                </div>
+            )}
+
+        </div>
+    );
 }
+
+export default Search;
 

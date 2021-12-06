@@ -1,0 +1,94 @@
+<changelist name="Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]" date="1638773187703" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Merge at 12/5/21, 10:46 PM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/model/Product.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/model/Product.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/Product.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/dao/mapper/GraphicCardMapper.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/dao/mapper/GraphicCardMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/GraphicCardMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/dao/mapper/RamMapper.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/dao/mapper/RamMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/RamMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/dao/mapper/PowerSupplyMapper.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/dao/mapper/PowerSupplyMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/PowerSupplyMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/dao/mapper/CoolingMapper.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/dao/mapper/CoolingMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/CoolingMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/dao/mapper/ProductMapper.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/dao/mapper/ProductMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/ProductMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/controller/OrderController.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/controller/OrderController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/OrderController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/dao/mapper/ComputerCasesMapper.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/dao/mapper/ComputerCasesMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/ComputerCasesMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/controller/ProductController.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/controller/ProductController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/ProductController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/service/OrderService.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/service/OrderService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/OrderService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/service/ProductService.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/service/ProductService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/ProductService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/controller/UserController.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/controller/UserController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/UserController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/model/User.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/model/User.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/User.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/dao/mapper/ProcessorMapper.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/dao/mapper/ProcessorMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/ProcessorMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/dao/mapper/StorageMapper.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/dao/mapper/StorageMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/StorageMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/dao/UserDao.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/dao/UserDao.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/UserDao.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/service/UserService.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/service/UserService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/UserService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="microegg/target/classes/com/microegg/dao/mapper/MotherBoardMapper.class" />
+    <option name="AFTER_PATH" value="microegg/target/classes/com/microegg/dao/mapper/MotherBoardMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/MotherBoardMapper.class" />
+  </binary>
+</changelist>
