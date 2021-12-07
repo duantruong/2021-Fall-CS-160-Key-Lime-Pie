@@ -5,95 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d24d875-5e07-4560-b1ab-0da0636ece21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17bc7041-1cf8-4ac5-8716-60aaa5296a3e.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17bc7041-1cf8-4ac5-8716-60aaa5296a3e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17bc7041-1cf8-4ac5-8716-60aaa5296a3e/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17bc7041-1cf8-4ac5-8716-60aaa5296a3e/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17bc7041-1cf8-4ac5-8716-60aaa5296a3e/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17bc7041-1cf8-4ac5-8716-60aaa5296a3e/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/ComputerCasesMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/CoolingMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/GraphicCardMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/MotherBoardMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/PowerSupplyMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/ProcessorMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/ProductMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/RamMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/StorageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21,_10_46_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_5_21__10_46_PM__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/ComputerCasesMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/CoolingMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/GraphicCardMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/MotherBoardMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/PowerSupplyMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/ProcessorMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/ProductMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/RamMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/StorageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21,_10_49_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_5_21__10_49_PM__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Search/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microegg.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/cors/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/cors/HISTORY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/cors/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/cors/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/cors/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/cors/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/fsevents/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/fsevents/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/fsevents/fsevents.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/fsevents/fsevents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/fsevents/fsevents.node" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/fsevents/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/object-assign/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/object-assign/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/object-assign/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/node_modules/object-assign/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microegg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Microegg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/CreateAcc/CreateAcc.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/CreateAcc/CreateAcc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/DataServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/DataServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Detail/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Detail/Detail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Search/Search.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Search/Search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Search/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microegg/microegg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microegg/microegg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microegg/src/main/java/com/microegg/MicroeggApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microegg/src/main/java/com/microegg/MicroeggApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microegg3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,19 +43,6 @@
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MicroeggApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microegg" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microegg.MicroeggApplication" />
@@ -162,7 +67,8 @@
       <workItem from="1637630231878" duration="3874000" />
       <workItem from="1638485181732" duration="8942000" />
       <workItem from="1638740848288" duration="6334000" />
-      <workItem from="1638773404675" duration="2754000" />
+      <workItem from="1638773404675" duration="3377000" />
+      <workItem from="1638827852106" duration="5230000" />
     </task>
     <servers />
   </component>
@@ -174,7 +80,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
