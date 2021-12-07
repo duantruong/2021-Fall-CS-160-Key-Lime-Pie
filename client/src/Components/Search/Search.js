@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import './Search.css';
 import SearchIcon from '@material-ui/icons/Search';
 import CloseIcon from '@material-ui/icons/Close';
+import {Link} from "react-router-dom";
 
 function Search({placeholder, data}) {
     const [filteredData, setFilteredData] = useState([]);
@@ -24,28 +25,38 @@ function Search({placeholder, data}) {
         setWordEntered("");
     }
     return(
-        <div className= "search" >
-            <div className= "searchInputs">
-                <input type = "text" placeholder={placeholder} value={wordEntered} onChange= {handleFilter}/>
+        <div className="container ">
+        <div className= "search input-group form-outline justify-content-center" >
+            <div className= "searchInputs " >
+                <input type = "text"  id ="form1" className="form-control" placeholder={placeholder} value={wordEntered} onChange= {handleFilter}/>
                 <div className = "searchIcon">
-                    {filteredData.length ===0 ? <SearchIcon/> : <CloseIcon id="clearBtn" onClick={clearInput}/>}
+                    <button type="button" className="btn btn-primary">
+                        {filteredData.length ===0 ? <SearchIcon/> : <CloseIcon id="clearBtn" onClick={clearInput}/>}
+                    </button>
+
 
                 </div>
             </div>
             {filteredData.length != 0 && (
-                <div className = "dataResult">
+                <div className = "dataResult justify-content-center dropdown-content">
                     {filteredData.slice(0,10).map((value, key) => {
                         return (
-                            <a className = "dataItem" href={value.imageUrl} target = "_blank">
-                                <p>
-                                    {value.productName}
-                                </p>
-                            </a>
+                             <Link to={{
+                                 pathname: `/ListProduct/${value.productId}`,
+                                 state:`${value.category}`
+                             }}>
+                                 <p>
+                                     {value.productName}
+                                 </p>
+
+                             </Link>
+
                         );
                     })}
                 </div>
             )}
 
+        </div>
         </div>
     );
 }

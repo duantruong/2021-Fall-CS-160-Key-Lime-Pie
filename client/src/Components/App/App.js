@@ -55,17 +55,15 @@ export default  function App(){
     };
     return (
      <React.Fragment>
-      <div className = "SearchBar">
-                    <Search placeholder= "Search..." data={BookData}/>
-      </div>
-       
       <Nav countCartItem = {cartItems.length} onAdd={onAdd} cartItems = {cartItems}></Nav>
-
+         <div className = "SearchBar">
+             <Search placeholder= "Search..." data={BookData}/>
+         </div>
       <Switch>
           <Route exact path="/"component={CSPartsList}></Route>
         <Route exact path="/homepage"component={CSPartsList}></Route>
         <Route path="/details" component={<Detail data={1}/>} />
-        <Route path="/cart"render={(props) => <Cart data={cartItems} onAdd={onAdd} onRemove={{onRemove}}{...props}/>}></Route>
+        <Route path="/cart"render={(props) => <Cart data={cartItems} onAdd={onAdd} onRemove={onRemove}{...props}/>}></Route>
         <Route path="/login"component={Login}></Route>
         <Route path="/account-create"component={CreateAcc}></Route>
         <Route path="/list-all-products"component={ListProduct}></Route>
@@ -77,7 +75,7 @@ export default  function App(){
         <Route path="/list-all-storages"component={Storages}></Route>
         <Route path="/list-all-peripherals"component={Peripherals}></Route>
         <Route path="/list-all-monitors"component={Monitors}></Route>
-        <Route path="/ListProduct/:id" render={(props) => <Detail data={cartItems} onAdd={onAdd} onRemove={{onRemove}}{...props}/>} exact></Route>
+        <Route path="/ListProduct/:id" render={(props) => <Detail data={cartItems} onAdd={onAdd} onRemove={onRemove}{...props}/>} exact></Route>
         <Route component={Default}></Route>
 
 

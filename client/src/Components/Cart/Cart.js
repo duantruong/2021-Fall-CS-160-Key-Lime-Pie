@@ -4,19 +4,20 @@ import {Detail} from "../Detail/Detail";
 
 export default function Cart(props) {
         const {data,onRemove,onAdd} = props
-        const itemPrice = data.reduce((a, c) =>a + a.qty * c. price, 0)
+        const itemPrice = data.reduce((a, c) =>a + c.qty * c. price, 0)
     const taxPrice = itemPrice * 0.14;
     const shippingPrice = itemPrice > 2000 ? 0 : 20;
     const totalPrice = itemPrice + taxPrice + shippingPrice;
 
         return (
-<div>
-            <h2>Cart Items</h2>
+<div className="container">
+    <h2><strong>Cart Items</strong></h2>
     <div>
         {data.length === 0 && <div>Cart is empty</div>}
+
         {data.map((item) => (
             <div key={item.id} className="row">
-                <div className="col-2">{item.name}</div>
+                <div className="col-2">{item.productName}</div>
                 <div className="col-2">
                     <button onClick={() => onRemove(item)} className="remove">
                         -
@@ -29,8 +30,11 @@ export default function Cart(props) {
                 <div className="col-2 text-right">
                     {item.qty} x ${item.price.toFixed(2)}
                 </div>
+                <hr></hr>
             </div>
+
         ))}
+
 
         {data.length !== 0 && (
             <>

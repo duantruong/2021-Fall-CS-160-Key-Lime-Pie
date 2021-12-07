@@ -22,7 +22,7 @@ export default class Detail extends Component {
 
         if (this.props.match.params.id) {
             if (cat.toLowerCase() === 'computercases') {
-                return axios.get(`http://localhost:8081/getComputerCases/${this.props.match.params.id}`).then(
+                return axios.get(`http://localhost:8081/api/product/getComputerCases/${this.props.match.params.id}`).then(
                     response => {
                         this.setState({product: response.data.data})
 
@@ -33,7 +33,7 @@ export default class Detail extends Component {
         }
        if (this.props.match.params.id) {
             if (cat.toLowerCase() === 'motherboard') {
-                return axios.get(`http://localhost:8081/getMotherBoardDetail/${this.props.match.params.id}`).then(
+                return axios.get(`http://localhost:8081/api/product/getMotherBoardDetail/${this.props.match.params.id}`).then(
                     response => {
                         console.log(response);
                         this.setState({product: response.data.data})
@@ -43,7 +43,7 @@ export default class Detail extends Component {
         }
         else if (this.props.match.params.id) {
             if (cat.toLowerCase() === 'cooling') {
-                return axios.get(`http://localhost:8081/getCoolingProductDetail/${this.props.match.params.id}`).then(
+                return axios.get(`http://localhost:8081/api/product/getCoolingProductDetail/${this.props.match.params.id}`).then(
                     response => {
                         console.log(response);
                         this.setState({product: response.data.data})
@@ -53,7 +53,7 @@ export default class Detail extends Component {
         }
         if (this.props.match.params.id) {
             if (cat.toLowerCase() === 'powersupply') {
-                return axios.get(`http://localhost:8081/getPowerSupplyDetail/${this.props.match.params.id}`).then(
+                return axios.get(`http://localhost:8081/api/product/getPowerSupplyDetail/${this.props.match.params.id}`).then(
                     response => {
                         console.log(response);
                         this.setState({product: response.data.data})
@@ -63,7 +63,7 @@ export default class Detail extends Component {
         }
        if (this.props.match.params.id) {
             if (cat.toLowerCase() === 'graphiccard') {
-                return axios.get(`http://localhost:8081/getGraphicCardDetail/${this.props.match.params.id}`).then(
+                return axios.get(`http://localhost:8081/api/product/getGraphicCardDetail/${this.props.match.params.id}`).then(
                     response => {
                         console.log(response);
                         this.setState({product: response.data.data})
@@ -74,7 +74,7 @@ export default class Detail extends Component {
         }
         if (this.props.match.params.id) {
             if (cat.toLowerCase() === 'processors') {
-                return axios.get(`http://localhost:8081/getRamDetail/${this.props.match.params.id}`).then(
+                return axios.get(`http://localhost:8081/api/product/getRamDetail/${this.props.match.params.id}`).then(
                     response => {
                         console.log(response);
                         this.setState({product: response.data.data})
@@ -84,7 +84,7 @@ export default class Detail extends Component {
         }
         if (this.props.match.params.id) {
             if (cat.toLowerCase() === 'storages') {
-                return axios.get(`http://localhost:8081/getStoragesDetail/${this.props.match.params.id}`).then(
+                return axios.get(`http://localhost:8081/api/product/getStoragesDetail/${this.props.match.params.id}`).then(
                     response => {
                         console.log(response);
                         this.setState({product: response.data.data})
@@ -94,7 +94,7 @@ export default class Detail extends Component {
         }
         if (this.props.match.params.id) {
             if (cat.toLowerCase() === 'ram') {
-                return axios.get(`http://localhost:8081/getRamDetail/${this.props.match.params.id}`).then(
+                return axios.get(`http://localhost:8081/api/product/getRamDetail/${this.props.match.params.id}`).then(
                     response => {
                         console.log(response);
                         this.setState({product: response.data.data})
